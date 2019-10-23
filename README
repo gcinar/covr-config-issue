@@ -1,0 +1,15 @@
+covr package fails to compute code coverage when config package is used in the tested package.
+
+Testing:
+Tests in this repo will pass (using testthat package).
+
+Issues:
+
+1- Failure when a test refers to a function using config
+  Please run covr::package_coverage()
+
+2- Failure when a test uses config (tested function does not use test)
+  Please run covr::package_coverage()
+  
+3- Cases 1 & 2 together
+  Please run covr::package_coverage()
