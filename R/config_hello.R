@@ -4,7 +4,6 @@ config_hello <- function() {
   return(msg)
 }
 
-library(config)
 hello <- function() {
   msg <- "hi"
   return(msg)
