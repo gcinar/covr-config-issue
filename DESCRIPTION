@@ -6,3 +6,6 @@ Author: Goktug Cinar
 License: MIT+ License
 Encoding: UTF-8
 LazyData: true
+Description: foo
+Maintainer: bar <foo@bar.com>
+Imports: config
