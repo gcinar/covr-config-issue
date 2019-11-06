@@ -1,6 +1,6 @@
 library(config)
 config_hello <- function() {
-  msg <- config::get("some_config")
+  msg <- config::get("some_config", file = system.file("config.yml", package = "covrconfig"))
   return(msg)
 }
 
